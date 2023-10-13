@@ -53,7 +53,7 @@ def openmixup(data):
 
     """
     Function:
-        Given images, construct its OpenMixup-version images.
+        Given images, construct their OpenMixup-version images.
 
     Input:
         param1: tensor ( tensor for imgs)
