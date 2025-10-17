@@ -7,7 +7,6 @@ Code for "OpenMix+: Revisiting Data Augmentation for Open Set Recognition". The 
 This repository provides a pytorch-version implementation of OpenMix which includes three data augmentation methods, _i.e_., OpenMixup, OpenCutout, OpenCutmix. The scripts are included in **utils.py** which can be called in dataloader.
 
 * Notes：<br>
-Generally, OpenMixup is robust to foregrounds without rotational symmetry, and OpenCutout is robust to images with diverse backgrounds. FineTune the sample ratio of augmentation is helpful for achieving better AUROC results. In our experiments,
-For CIFAR10 and Imagenet, Known:OpenMixup:OpenCutout:OpenCutmix=1:4:1:1; 
-For MNIST, Known:OpenMixup:OpenCutout:OpenCutmix=1:0:0:1 .<br>
+Generally, OpenMixup is robust to foregrounds without rotational symmetry, and OpenCutout is robust to images with diverse backgrounds. FineTune the sample ratio of augmentation is helpful for achieving better AUROC results. In our experiments:  For CIFAR10 and Imagenet, Known:OpenMixup:OpenCutout:OpenCutmix=1:4:1:1;   For MNIST, Known:OpenMixup:OpenCutout:OpenCutmix=1:0:0:1 .<br>
+
 If you have any problems, feel free to contact me. Have fun and may it inspire your own idea :-)
